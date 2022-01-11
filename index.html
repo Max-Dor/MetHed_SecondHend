@@ -7,11 +7,14 @@
 </head>
 <body>
 <header class="header">
-<div class="container">
+<div class="container header__container">
   <a href="index.html" class="header__logo">
     <img src="img/logo.svg" alt="Логотип компании SecondHend" class="header__logo-img">
   </a>
-  <nav class="navigation header__navigation">
+  <nav class="navigation navigation_activ header__navigation">
+    <button class="navigation__btn">
+      <span class="navigation__btn_line">Каталог</span>
+    </button>
     <ul class="navigation__list">
       <li class="navigation__item"><a href="?category=women" class="navigation__link">Женщинам</a></li>
       <li class="navigation__item"><a href="?category=men" class="navigation__link">Мужчинам</a></li>
@@ -26,13 +29,13 @@
     </form>
   </div>
   <ul class="header__control-list">
-    <li class="header__control-iem">
+    <li class="header__control-item">
       <button class="header__btn header__btn-cart"></button>
     </li>
-    <li class="header__control-iem">
+    <li class="header__control-item">
       <a href="?list=" class="header__btn header__btn_favorite"></a>
     </li>
-    <li class="header__control-iem">
+    <li class="header__control-item">
       <a href="#" class="header__btn header__btn_person"></a>
     </li>
   </ul>
@@ -42,7 +45,7 @@
   <section class="hero">
     <div class="container hero__container">
 <div class="hero__slider">
-  <ui class="hero__slider-wrapper">
+  <ul class="hero__slider-wrapper">
     <li class="hero__slider-item">
       <a href="?category=women" class="hero__slider-link hero__slider-link_women">
         <h2 class="hero__slider-title">Новые поступления блузок</h2>
@@ -58,7 +61,7 @@
         <h2 class="hero__slider-title">Собираем ребёнка в школу</h2>
       </a>
     </li>
-  </ui>
+  </ul>
 </div>
     </div>
   </section>
