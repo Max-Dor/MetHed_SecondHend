@@ -2,6 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SecondHand</title>
   <link rel="stylesheet" href="css/index.css">
 </head>
@@ -11,18 +13,31 @@
   <a href="index.html" class="header__logo">
     <img src="img/logo.svg" alt="Логотип компании SecondHend" class="header__logo-img">
   </a>
-  <nav class="navigation navigation_activ header__navigation">
+  <nav class="navigation  header__navigation">
     <button class="navigation__btn">
       <span class="navigation__btn_line">Каталог</span>
     </button>
-    <ul class="navigation__list">
-      <li class="navigation__item"><a href="?category=women" class="navigation__link">Женщинам</a></li>
-      <li class="navigation__item"><a href="?category=men" class="navigation__link">Мужчинам</a></li>
-      <li class="navigation__item"><a href="?category=kids" class="navigation__link">Детям</a></li>
-    </ul>
+    <div class="navigation__mobile-wrapper">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="?category=women" class="navigation__link">Женщинам</a></li>
+        <li class="navigation__item"><a href="?category=men" class="navigation__link">Мужчинам</a></li>
+        <li class="navigation__item"><a href="?category=kids" class="navigation__link">Детям</a></li>
+      </ul>
+      <ul class="header__control-list navigation__control">
+        <li class="header__control-item">
+          <button class="header__btn header__btn-cart"></button>
+        </li>
+        <li class="header__control-item">
+          <a href="?list=" class="header__btn header__btn_favorite"></a>
+        </li>
+        <li class="header__control-item">
+          <a href="#" class="header__btn header__btn_person"></a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <div class="header__search">
-    <form action="#" class="search">
+    <form action="#" class="search search_active">
       <input type="search" class="search__input">
       <button class="search__button" type="button"></button>
       <button class="search__close" type="button"></button>
