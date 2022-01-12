@@ -43,7 +43,10 @@
     gap: 30px;
   }
   .header__logo{
-
+    width: 111px;
+    height: 42px;
+    left: 94px;
+    top: 24px;
   }
   .header__navigation{
     justify-self: end;

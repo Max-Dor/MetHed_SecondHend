@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px;
-  background-color: #F5F5F5;
+  background-color: var(--smoke-color);
   border-radius: 20px;
   will-change: border-radius;
   transition: border-radius 0.2s ease;
@@ -31,7 +31,7 @@
   transform: scaleX(0);
   transition: transform 0.4s ease 0.2s;
   transform-origin: right;
-  background-color: #F5F5F5;
+  background-color: var(--smoke-color);
 }
 .search_active .search__input{
   transform: scaleX(1);

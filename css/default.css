@@ -1,6 +1,10 @@
 html{
   box-sizing: border-box;
   --main-color:#272727;
+  --white-color:#ffff;
+  --smoke-color:#F5F5F5;
+  --aple-color:#A4EE08;
+  --chery-color:#D93162;
 }
 *,
 *:after,
