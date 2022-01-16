@@ -1,5 +1,6 @@
 import burgerMenu from "./modules/burgerMenu.js";
 import searchControl from "./modules/searchControl.js";
+import selectControl from "./modules/selectControl.js";
 
 burgerMenu({
     selectorBtn: '.navigation__btn',
@@ -19,3 +20,10 @@ searchControl({
 
 document.addEventListener('click', e => e.preventDefault()
 );
+
+selectControl({
+    selectorBtn: '.footer__subtitle',
+    selectorSelect:'.footer__nav-item',
+    classActive: 'footer__nav-item_active',
+    breakpoint: 760,
+});

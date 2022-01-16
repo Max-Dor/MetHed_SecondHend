@@ -1,6 +1,6 @@
 const burgerMenu = ({classActive,selectorBtn,selectorMenu,selectorClose})=>{
-    const btn= document.querySelector(selectorBtn);
-    const menu= document.querySelector(selectorMenu);
+const btn= document.querySelector(selectorBtn);
+const menu= document.querySelector(selectorMenu);
 
     btn.addEventListener('click',()=>{
         menu.classList.toggle(classActive);
