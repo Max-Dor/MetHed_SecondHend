@@ -99,6 +99,19 @@
     bottom: 1px;
     background-color: var(--white-color);
 }
+.footer__link,
+.footer__agreement {
+    transition: color 0.24s ease;
+}
+.footer__link:hover,
+.footer__agreement:hover {
+    color: #A4EE08;
+}
+
+.footer__agreement:hover:after {
+    background-color: #A4EE08;
+}
+
 @media (max-width: 1200px) {
     .footer{
         padding-bottom: 72px;
