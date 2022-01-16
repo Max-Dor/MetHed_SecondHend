@@ -6,6 +6,7 @@ burgerMenu({
     selectorMenu: '.navigation',
     classActive: 'navigation_active',
     selectorClose: '.navigation__link, .header__btn',
+    selectorClose:'.navigation__link, .header__btn',
 });
 
 searchControl({
