@@ -25,7 +25,6 @@
   background-color: var(--buthover-color);
 }
 .search__input{
-  visibility: hidden;
   position: absolute;
   right: 70px;
   top: 0;
