@@ -1,6 +1,7 @@
 .navigation__list{
   display:flex;
   gap: 60px;
+  z-index: 15;
 }
 .navigation__item{
   font-weight: 300;
@@ -12,6 +13,12 @@
 }
 .navigation__control{
   display: none;
+}
+.navigation__link:active{
+  border-bottom-color: var(--main-color);
+}
+.navigation__link:focus{
+  border-bottom-color: var(--main-color);
 }
 @media (max-width: 1000px) {
   .navigation{
@@ -59,6 +66,12 @@
     height: auto;
     padding-bottom:13px;
   }
+  .navigation__link:active{
+  border-bottom-color: var(--main-color);
+}
+  .navigation__link:focus{
+  border-bottom-color: var(--main-color);
+}
 }
 @media (max-width: 760px) {
   .navigation{
