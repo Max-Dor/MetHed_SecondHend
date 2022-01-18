@@ -3,7 +3,7 @@ const slider = ({selectorSlider, selectorPagination: el, bulletClass, bulletActi
     new Swiper(selectorSlider, {
         autoplay: true,
         loop: true,
-        effect: 'coverflow',
+        effect: 'flip',
         coverflowEffect:{
             rotate: 25,
         },

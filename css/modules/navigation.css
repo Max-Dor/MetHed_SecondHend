@@ -14,6 +14,9 @@
 .navigation__control{
   display: none;
 }
+.navigation__link:hover{
+  border-bottom-style:  solid;
+}
 .navigation__link:active{
   border-bottom-color: var(--main-color);
 }
