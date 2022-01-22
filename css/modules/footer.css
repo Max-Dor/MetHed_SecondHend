@@ -95,7 +95,7 @@
     display: inline-block;
     height: 1px;
     width: 106%;
-    left: -9px;
+    left: -10px;
     bottom: 1px;
     background-color: var(--white-color);
 }
@@ -176,12 +176,12 @@
     .footer__agreemant{
         font-weight: 400;
         font-size: 14px;
-        line-height: 20px; 
+        line-height: 20px;
     }
     .footer__link{
         font-weight: 300;
         font-size: 16px;
         line-height: 26px;
     }
-} 
+}
 

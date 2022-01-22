@@ -1,6 +1,7 @@
 .hero{
     padding: 60px 0 40px;
 }
+
 .hero__slider-link{
     display: flex;
     align-items: flex-end;
