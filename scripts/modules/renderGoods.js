@@ -38,7 +38,7 @@ const renderGoods = (query, callback) => {
   const list = document.querySelector('.goods__list');
   list.textContent = '';
 
-  serviceGoods(renderCards(list), query, callback)
+  serviceGoods(renderCards(list), query, callback);
 };
 
 export default renderGoods;

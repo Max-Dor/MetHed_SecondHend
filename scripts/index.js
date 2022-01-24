@@ -31,12 +31,15 @@ selectControl({
     breakpoint: 760,
 });
 
-slider({
+const  checkSlider = slider({
+    selectorParentSlider: '.hero',
     selectorSlider: '.hero__slider',
     selectorPagination: '.hero__slider-pagination',
     bulletClass: 'hero__slider-line',
     bulletActiveClass: 'hero__slider-line_active'
 });
 
-renderGoods();
-interceptLink();
+renderGoods(location.search, ()=>{
+  document.body.style.opacity = '1';
+});
+interceptLink(checkSlider);
